@@ -47,6 +47,8 @@ CUDA_VISIBLE_DEVICES=0 python train.py --dataset Synapse --vit_name R50-ViT-B_16
 
 ```bash
 python test.py --dataset Synapse --vit_name R50-ViT-B_16
+python test.py --dataset Synapse --vit_name R50-ViT-B_16 --is_savenii
+
 ```
 
 ## Reference
